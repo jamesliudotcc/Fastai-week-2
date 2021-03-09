@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOyd3jKDSSm7IHfUY6CuiKE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jamesliudotcc/6S083/blob/master/Hypoteneuse\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "H9LVJNkoNjsq"
+      },
+      "source": [
+        "Compute the hypotenueuse:\n",
+        "\n",
+        "$h^2 = \\sqrt{a^2 + b ^2}$"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9vxHIfEeNZ5-",
+        "outputId": "b695eade-4f71-49ec-f98f-5ce5d3fc3216"
+      },
+      "source": [
+        "from math import sqrt\n",
+        "\n",
+        "def pythagorean(a, b):\n",
+        "  return sqrt(a ** 2 + b ** 2)\n",
+        "\n",
+        "pythagorean(3, 4)"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5.0"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 1
+        }
+      ]
+    }
+  ]
+}
